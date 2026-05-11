@@ -44,13 +44,29 @@
 
 }
 
+.section-title {
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.section-description {
+    font-size: 18px;
+    color: #757575;
+    line-height: 30px;
+}
+
+.bg-primary {
+    background-color: #FFF8F3;
+}
+
 /* nav styles */
 
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 50px 230px;
+    padding: 50px 230px;
 }
 
 .nav-title {
@@ -107,4 +123,35 @@ nav ul li a {
 
 .banner-profile-pic{
     margin-right: 38px;
+}
+
+/* main styles */
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* about styles  */
+
+.about-section{
+    text-align: center;
+    margin-top: 130px;
+    padding: 130px 150px;
+    border-radius: 10px;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.item-title{
+    font-size: 20px;
+    color: #757575;
+}
+
+.item-description{
+    font-size: 20px;
+    font-weight: bold;
+    color: #474747;
 }

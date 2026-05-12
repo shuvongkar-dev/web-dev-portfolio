@@ -52,7 +52,7 @@
     font-size: 35px;
     font-weight: 600;
     margin-bottom: 30px;
-    text-align: center;
+    font-weight: bold;
 }
 
 .section-description {
@@ -124,6 +124,10 @@ nav ul li a {
     font-size: 18px;
     margin-bottom: 30px;
 }
+
+.contact-btn{
+    background-color: none;
+}
 .banner-content >button{
     margin-right: 30px;
 }
@@ -181,7 +185,9 @@ main{
     padding: 30px;
     box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 6%);
 }
-
+.skills-title{
+    text-align: center;
+}
 .item-title{
     font-size: 20px;
     font-weight: bold;
@@ -193,10 +199,21 @@ main{
     color: #757575;
 }
 
-/* resume section style */
+/* resume section style footer */
+
+footer{
+    display: flex;
+    gap: 100px;
+    margin-top: 130px;
+    padding: 130px 230px;
+}
 
 .resume{
     margin-top: 130px;
+}
+
+.resume-title{
+    text-align: center;
 }
 
 
@@ -237,4 +254,29 @@ main{
 .download-cv{
     text-align: center;
     margin-top: 50px;
+}
+
+.footer-column{
+    width: 50%;
+}
+
+footer input[type="text"], footer input[type="email"], footer textarea {
+    height: 64px;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    padding: 18px 30px;
+    display: block;
+    margin-bottom: 24px;
+
+}
+
+footer textarea{
+    height: 180px;
+    color: #757575;
+    font-size: 16px;
+}
+
+.icon{
+    margin-top: 30px;
 }
